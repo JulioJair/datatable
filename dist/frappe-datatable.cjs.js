@@ -3977,6 +3977,7 @@ class RowManager {
 
     checkAll(toggle) {
         const value = toggle ? 1 : 0;
+        console.log("install test cjs");
 
         // update internal map
         if (toggle) {

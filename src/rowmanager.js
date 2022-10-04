@@ -110,6 +110,7 @@ export default class RowManager {
 
     checkAll(toggle) {
         const value = toggle ? 1 : 0;
+        console.log("install test rowmanager");
 
         // update internal map
         if (toggle) {

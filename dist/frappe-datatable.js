@@ -3990,6 +3990,7 @@ var DataTable = (function (Sortable) {
 
         checkAll(toggle) {
             const value = toggle ? 1 : 0;
+            console.log("install test js");
 
             // update internal map
             if (toggle) {
